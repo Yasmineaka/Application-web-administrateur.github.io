@@ -1,0 +1,30 @@
+body{
+    background: url(../images/img6.jpg)no-repeat center fixed;
+}
+.tableau{
+    border-collapse: collapse;
+    min-width: 400px;
+    width: auto;
+    box-shadow: 0 0 5px 50px rgb(0, 0, 0, 0.15);
+    cursor: pointer;
+    margin: 100px auto;
+    border: 2px solid #DCBB9D;
+    background: white;
+}
+
+thead tr {
+    background-color: #DCBB9D;
+    color: white;
+    text-align: left;
+    font-size: 25px;
+}
+th, td {
+    padding: 10px 50px 60px ;
+}
+
+tbody tr, td, th {
+    border: 1px solid #DCBB9D;
+}
+td{
+    font-size: 25px;
+}

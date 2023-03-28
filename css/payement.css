@@ -1,0 +1,44 @@
+.tableau{
+    position: relative;
+    border-collapse: collapse;
+    min-width: 400px;
+    width: auto;
+    box-shadow: 0 0 5px 20px #f0f6e7;
+    cursor: pointer;
+    margin: 100px auto;
+    border: 2px solid #DCBB9D;
+    top: 50px;
+
+}
+.rouge{
+    color: red;
+}
+.vert{
+    color: green;
+}
+
+thead tr {
+    background-color: #DCBB9D;
+    color: white;
+    text-align: left;
+    font-size: 30px;
+}
+th, td {
+    padding: 10px 50px 60px ;
+}
+
+tbody tr, td, th {
+    border: 1px solid #DCBB9D;
+}
+td{
+    background: white ;
+    color: black;
+}
+img{
+    width: 70%;
+    height: 60px;
+   
+}
+.img_rouge{
+    opacity: 0.4;
+}
