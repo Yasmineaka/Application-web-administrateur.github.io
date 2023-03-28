@@ -1,0 +1,250 @@
+*{
+  
+}
+body{
+   
+    margin: 0;
+    padding: 0;
+    background: #DCBB9D;
+
+ 
+}
+.logo{
+    font-size: 15px;
+    color: #F07401;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 5%;
+    height: 80px;
+    text-align: center;
+    
+    /* background-image: url(images/img2.png); */
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    
+}
+
+.button{
+    width: 69%;
+    position: relative;
+    display: flex;
+    left: 30%;
+    margin: 0.5%;
+    justify-content: space-between;
+    flex-direction: row;
+   
+   
+}
+.button1{
+background: white;
+border: 1px solid #DCBB9D;
+box-shadow: 0px 1px 1px ;
+height: 70px;
+border-radius: 100px;
+font-family: sans-serif;
+font-size: 20px;
+
+}
+
+.button2{
+    background: #DCBB9D;
+    border: 1px solid white;
+    box-shadow: 0px 1px 1px ;
+    border-radius: 100px; 
+    height: 70px;
+    font-family: sans-serif;
+    font-size: 20px;  
+}
+.button3{
+    background: #DCBB9D;
+    border: 1px solid white;
+    box-shadow: 0px 1px 1px ;
+    height: 70px;
+    border-radius: 100px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.button4{
+    background: #DCBB9D;
+    border: 1px solid white;
+    box-shadow: 0px 1px 1px ;
+    height: 70px;
+    border-radius: 100px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+
+
+/* rectangle 1 et informations */
+.rectangle{
+    display: flex;
+    margin: 10px;
+}
+.rectangle1{
+    
+    background: white;
+    position: relative;
+    width: 20%;
+    height: 1000px;
+    
+    margin: 10px;
+}
+
+
+
+/* rectangle 1 et informations */
+.rectangle2{
+    background: white;
+    position: relative;
+    width: 78.5%;
+    height: 1000px;
+   
+    top: 10px;
+    background-image: url(../images/img7.jpeg);
+  
+}
+
+.info{
+    
+    color: #DCBB9D;
+    position: relative;
+    font-size: 30px;
+    left: 30px;
+    top: 100px;
+    position: relative;
+    font-family  : sans-serif;
+}
+select{
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    color: #DCBB9D;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: #DCBB9D;
+    font-size: 20px;
+}
+button a{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ligne{
+    position: relative;
+    border: 1px solid ;
+    box-shadow: 0px 1px 1px 1px;
+    width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 30%;
+    border-radius: 10px ;
+    height: 500px;
+    background: white;
+   
+   
+    
+    /* align-items: center; */
+}
+h4{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #DCBB9D;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+
+    
+}
+label{
+  font-size: 20px;
+  margin-left: 10%;
+ 
+
+ 
+} 
+.partie_nom{
+    margin-top: 15px;
+  
+}
+input{
+    width: 380px;
+    height: 40px;
+    font-size: 16px;
+    margin-left: 10%;
+}
+
+.div-button button{
+    height: 30px;
+    width: 140px;
+}
+
+.button5{
+    position: relative;
+    height: 40px;
+    width: 100px;
+    border: 3px solid white;
+    background: #f3ddc9;
+    border-radius: 12px;
+    margin-left: 30%;
+    top: 20px;
+
+}
+
+/* .button6{
+    position: relative;
+    border: 3px solid white;
+    background: #f3ddc9;
+    border-radius: 12px;
+    align-items: center;
+    margin: 80px;
+} */
+
+
+table button{
+    background: rgb(237, 95, 82);
+    margin: 2px;
+}
+
+
+
+td{
+    border: 1px solid ;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+   background: white;
+    
+    
+}
+th {
+    background: white;
+        border:1px solid; 
+        
+} 
+
+table{
+    position: relative;
+    border: 1px solid rebeccapurple;
+    width: 70%;
+    font-size: 20px;
+    left: 15%;
+   }

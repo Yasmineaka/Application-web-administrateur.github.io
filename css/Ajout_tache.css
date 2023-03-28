@@ -1,0 +1,241 @@
+*{
+ 
+}
+body{
+   
+    margin: 0;
+    padding: 0;
+    background: #DCBB9D;
+
+}
+.logo{
+    font-size: 15px;
+    color: #F07401;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 5%;
+    height: 80px;
+    text-align: center;
+    
+    /* background-image: url(images/img2.png); */
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    
+}
+
+.button{
+    width: 69%;
+    position: relative;
+    display: flex;
+    left: 30%;
+    margin: 0.5%;
+    justify-content: space-between;
+    flex-direction: row;
+   
+   
+}
+.button1{
+background: #DCBB9D;
+border: 1px solid white;
+box-shadow: 0px 1px 1px ;
+height: 70px;
+border-radius: 100px;
+font-family: sans-serif;
+font-size: 20px;
+
+}
+
+.button2{
+    background: #DCBB9D;
+    border: 1px solid white;
+    box-shadow: 0px 1px 1px ;
+    border-radius: 100px; 
+    height: 70px;
+    font-family: sans-serif;
+    font-size: 20px;  
+}
+
+.button3{
+    background: #DCBB9D;
+    border: 1px solid white;
+    box-shadow: 0px 1px 1px ;
+    height: 70px;
+    border-radius: 100px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.button4{
+    background: #DCBB9D;
+    border: 1px solid white;
+    box-shadow: 0px 1px 1px ;
+    height: 70px;
+    border-radius: 100px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+
+
+/* rectangle 1 et informations */
+.rectangle{
+    display: flex;
+    margin: 10px;
+}
+.rectangle1{
+    
+    background: white;
+    position: relative;
+    width: 20%;
+    height: 1000px;
+    
+    margin: 10px;
+}
+
+
+
+/* rectangle 1 et informations */
+.rectangle2{
+    background: white;
+    position: relative;
+    width: 78.5%;
+    height: 1000px;
+   
+    top: 10px;
+    background-image: url(../images/img7.jpeg);
+  
+}
+
+.info{
+    
+    color: #DCBB9D;
+    position: relative;
+    font-size: 30px;
+    left: 30px;
+    top: 100px;
+    position: relative;
+    font-family  : sans-serif;
+}
+select{
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    color: #DCBB9D;
+    border: none;
+}
+ a{
+    text-decoration: none;
+    color: #DCBB9D;
+    font-size: 20px;
+}
+button a{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contour{
+    border: 5px solid #DCBB9D;
+    position: relative;
+    width: 55%;
+    height: 700px;
+    left: 30%;
+    background: #FFFBF8;
+    top: 70px;
+}
+.rectangle_blanc{
+    border: 1px solid #DCBB9D;
+    position: relative;
+    width: 100%;
+    background: white;
+    height: 70px;
+}
+
+ a{
+    text-decoration: none;
+    color: black;
+}
+
+input{
+    align-content: center;
+    font-size: 22px;
+    position: relative;
+    border: 1px solid #DCBB9D;
+    display: block;
+    margin: 30px;
+    margin-left: 24%;
+    top: 55px;
+  
+    
+}
+.input1{
+    position: relative;
+    height: 4px;
+    left: 20%;
+    width: 45%;
+    padding: 30px;
+    
+}
+.input2{
+    display: flex;
+    position: relative;
+    height: 4px;
+    left: 44%;
+    width: 53%;
+    padding: 30px;
+    top: 57px;
+    border: 1px solid #DCBB9D;
+    color: black;
+    background: transparent;
+    
+}
+.rectangle2 button{
+    position: relative;
+    align-items: center;
+    top: 16%;
+    width: 80px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    background: #DCBB9D;
+    border: 1px solid #DCBB9D;
+    left: 80%;
+}
+
+p{
+    width: 300px;
+    position: relative;
+    bottom: 19.7em;
+    font-size: 30px;
+    left: 28.5%;
+    margin: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.rectangle2 h1{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #696F69;
+    margin-left: 12px;
+}
+select input{
+    color: black;
+    position: relative;
+    margin-left: 10px;
+    
+}

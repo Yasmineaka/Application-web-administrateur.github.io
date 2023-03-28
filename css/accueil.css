@@ -2,14 +2,27 @@
   
 }
 body{
-    border: 1px solid;
+   
     margin: 0;
     padding: 0;
     background: #DCBB9D;
 
- 
 }
-
+.logo{
+    font-size: 15px;
+    color: #F07401;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 5%;
+    height: 80px;
+    text-align: center;
+    
+    /* background-image: url(images/img2.png); */
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    
+}
 
 .button{
     width: 69%;
@@ -24,23 +37,34 @@ body{
 }
 .button1{
 background: #DCBB9D;
-border: 1px solid #32632A;
+border: 1px solid white;
+box-shadow: 0px 1px 1px ;
 height: 70px;
 border-radius: 100px;
 font-family: sans-serif;
 font-size: 20px;
+
 }
+
 .button2{
     background: #DCBB9D;
-    border: 1px solid #32632A;
+    border: 1px solid white;
+    box-shadow: 0px 1px 1px ;
     border-radius: 100px; 
     height: 70px;
     font-family: sans-serif;
     font-size: 20px;  
 }
+h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .button3{
     background: #DCBB9D;
-    border: 1px solid #32632A;
+    border: 1px solid white;
+    box-shadow: 0px 1px 1px ;
     height: 70px;
     border-radius: 100px;
     font-family: sans-serif;
@@ -48,7 +72,8 @@ font-size: 20px;
 }
 .button4{
     background: #DCBB9D;
-    border: 1px solid #32632A;
+    border: 1px solid white;
+    box-shadow: 0px 1px 1px ;
     height: 70px;
     border-radius: 100px;
     font-family: sans-serif;
@@ -66,9 +91,9 @@ font-size: 20px;
     
     background: white;
     position: relative;
-    width: 30%;
+    width: 20%;
     height: 1000px;
-    border: 1px solid;
+    
     margin: 10px;
 }
 
@@ -78,11 +103,12 @@ font-size: 20px;
 .rectangle2{
     background: white;
     position: relative;
-    width: 69.5%;
+    width: 78.5%;
     height: 1000px;
-    border: 1px solid;
-    top: 10px;
    
+    top: 10px;
+    background-image: url(../images/img7.jpeg);
+  
 }
 
 .info{
@@ -100,12 +126,13 @@ select{
     width: 150px;
     font-size: 25px;
     color: #DCBB9D;
+    border: none;
 }
 a{
     text-decoration: none;
     color: #DCBB9D;
+    font-size: 20px;
 }
 button a{
     color: black;
 }
-

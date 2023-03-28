@@ -3,6 +3,20 @@
   
 
 }
+.logo{
+    font-size: 20px;
+    color: #F07401;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 6%;
+    text-align: center;
+    
+    /* background-image: url(images/img2.png); */
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    
+}
 
 .img1{
  position:absolute;
@@ -23,13 +37,13 @@ a{
 }
 .se_connecter{
     position: relative;
-    width: 128px;
-    height: 25px;
-     bottom: 50px;
-    left:81%;
+    width: 140px;
+    height: 30px;
+     bottom: 52px;
+    left:83%;
     border-radius: 30px;
     font-family: 'IBM Plex Sans', sans-serif;
-    background: #f4b173;
+    
     border: 1px solid #F07401;
     color: #F07401;
     text-align: center;
@@ -93,6 +107,7 @@ a{
     background: #9B9696 ;
     opacity: 0.9px;
     color: white;
+   
 } 
 
 
@@ -126,7 +141,7 @@ a{
 }
 .img3{
     position: relative;
-    top: 410px;    
+    top: 500px;    
     height: 400px;
     width: 600px;
     left: 33%;
@@ -138,7 +153,7 @@ a{
     width: 100%;
     height: 50px;
     background: #DCBB9D;
-    top: 560px;
+    top: 500px;
 }
 .aide{
     position:relative;
@@ -162,3 +177,7 @@ a{
     width: 15%;
 }   
 
+.enregistrer{
+    font-size:50px;
+    text-align: center;
+}

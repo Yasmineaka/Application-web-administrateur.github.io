@@ -1,3 +1,23 @@
+
+
+.logo{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid #F07401;
+    width: 7%;
+    height: 110px;
+    text-align: center;
+    
+    /* background-image: url(images/img2.png); */
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #F07401;
+    
+}
+
+
+
 .Tableau{
     border-collapse: collapse;
     min-width: 500px;
