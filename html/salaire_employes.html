@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Users/imac-09/Desktop/Application-web-administrateur.github.io/css/Ajout_tache.css">
-    <title>Admin Agro</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/salaire_employe.css">
 </head>
 <body>
     <section>
@@ -15,7 +15,7 @@
         <div class="button">  
           <button  class="button1"><a href="file:///Users/imac-09/Desktop/Application-web-administrateur.github.io/html/Nouveau_travailleur.html">Créer un nouveau travailleur</a></button>
           <button class="button2"><a href="file:///Users/imac-09/Desktop/Application-web-administrateur.github.io/html/Ajout_tache.html"> Attribution de tache aux travailleurs</a></button>
-          <button class="button3"><a href="file:///Users/imac-09/Desktop/Application-web-administrateur.github.io/html/salaire_employes.html"> Salaire en fonction des taches</a></button>
+          <button class="button3"><a href="file:///Users/imac-09/Desktop/Application-web-administrateur.github.io/html/Salaire.html"> Salaire en fonction des taches</a></button>
           <button class="button4"><a href="file:///Users/imac-09/Desktop/Application-web-administrateur.github.io/html/payement.html">Faire les payements</a></button>
         </div>
 </section>
@@ -42,39 +42,54 @@
            </div>
             <!-- rectangle 2 et informations -->
            <div class="rectangle2">
-            <div class="titre">
-                <h4>Tache du travailleur</h4>
-                <div class="ligne">
-                    
-                    <div class="partie_nom">
-                        <label for="name">Nom Complet</label>
-                        <input type="text" name="nom" id="nom" placeholder="Entrez un nom" class="f_nom">
-                    </div>
-            
-                    <div class="partie_nom">
-                        <label for="name">Tache</label>
-                        <input type="text" name="tache" id="tache" placeholder="Attribuez une tache" class="f_prenom">
-                    </div>
-            
-                    <div class="partie_nom">
-                        <label for="name">Heure de service</label>
-                        <input type="time" name="heure" id="heure" placeholder="Entrez l'heure à faire par l'ouvrier" class="f_age">
-                    </div>
-            
-                    <div class="partie_nom">
-                        <label for="name">Salaire</label>
-                        <input type="text" name="salaire" id="salaire" placeholder="Entrez le salaire de l'ouvrer" class="f_sex">
-                    </div>
-            
-            
-            
-                    <div class="div_button">
-                        <button class="button5" id="Update" 
-                        onclick="addData()">
-                            Attribuer 
-                        </button>
-                    </div>
-                </div>
+            <h4>Saire des travailleurs en fonction des taches et du nombre d'heure</h4>
+            <table class="tableau">
+                <thead>
+                    <tr>
+                        <th>TACHE:</th>
+                        <th>HEURE DE TRAVAIL:</th>
+                        <th>SALAIRE</th>
+                     </tr>
+                </thead>
+        
+                <tbody>
+                    <tr>
+                        <td>Controleur</td>
+                        <td>1mois</td>
+                        <td>150.000FCFA</td>
+                    </tr>
+        
+                    <tr>
+                        <td>Chargé(e) du désherbage</td>
+                        <td>5h</td>
+                        <td>5.000FCFA</td>
+                    </tr>
+        
+                    <tr>
+                        <td>Cultivateur</td>
+                        <td>1h</td>
+                        <td>2.000FCFA</td>
+                    </tr>
+        
+                    <tr>
+                        <td>Laboureur</td>
+                        <td>6h</td>
+                        <td>8.000FCFA</td>
+                    </tr>
+        
+                    <tr>
+                        <td>Maraîcheur</td>
+                        <td>2h</td>
+                        <td>2.000FCFA</td>
+                    </tr>
+        
+                    <tr>
+                        <td>Irrigueur</td>
+                        <td>3h</td>
+                        <td>3.000FCFA</td>
+                    </tr>
+                </tbody>
+           </table>
                </div>
 </body>
 </html>

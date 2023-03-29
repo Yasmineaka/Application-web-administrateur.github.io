@@ -2,11 +2,13 @@
 .carré{
     border: 30px solid #DCBB9D;
     position: relative;
-    width: 35%;
-    height: 790px;
+    width: 28%;
+    height: 600px;
     border-radius: 30px;
-    left: 30%;
+    left: 35%;
     background: #FFFBF8;
+    box-shadow: 0px 1px 1px 1px;
+    top: 150px;
 }
 input{
     align-content: center;
@@ -22,7 +24,7 @@ input{
 }
 .input1{
     position: relative;
-    height: 30px;
+    height: 10px;
     width: 70%;
     padding: 30px;
     

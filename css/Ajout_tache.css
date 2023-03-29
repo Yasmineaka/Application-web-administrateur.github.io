@@ -1,12 +1,11 @@
-*{
- 
-}
+
 body{
    
     margin: 0;
     padding: 0;
     background: #DCBB9D;
 
+ 
 }
 .logo{
     font-size: 15px;
@@ -47,15 +46,14 @@ font-size: 20px;
 }
 
 .button2{
-    background: #DCBB9D;
-    border: 1px solid white;
+    background: white;
+    border: 1px solid #DCBB9D;
     box-shadow: 0px 1px 1px ;
     border-radius: 100px; 
     height: 70px;
     font-family: sans-serif;
     font-size: 20px;  
 }
-
 .button3{
     background: #DCBB9D;
     border: 1px solid white;
@@ -100,9 +98,8 @@ font-size: 20px;
     position: relative;
     width: 78.5%;
     height: 1000px;
-   
     top: 10px;
-    background-image: url(../images/img7.jpeg);
+    background-image: url(../images/Farm_workers.jpeg);
   
 }
 
@@ -123,7 +120,7 @@ select{
     color: #DCBB9D;
     border: none;
 }
- a{
+a{
     text-decoration: none;
     color: #DCBB9D;
     font-size: 20px;
@@ -150,92 +147,63 @@ button a{
 
 
 
-.contour{
-    border: 5px solid #DCBB9D;
+.ligne{
     position: relative;
-    width: 55%;
-    height: 700px;
+    border: 1px solid ;
+    box-shadow: 0px 1px 1px 1px white;
+    width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     left: 30%;
-    background: #FFFBF8;
-    top: 70px;
-}
-.rectangle_blanc{
-    border: 1px solid #DCBB9D;
-    position: relative;
-    width: 100%;
+    border-radius: 10px ;
+    height: 500px;
     background: white;
-    height: 70px;
-}
-
- a{
-    text-decoration: none;
-    color: black;
-}
-
-input{
-    align-content: center;
-    font-size: 22px;
-    position: relative;
-    border: 1px solid #DCBB9D;
-    display: block;
-    margin: 30px;
-    margin-left: 24%;
-    top: 55px;
-  
+   
+   
     
+    /* align-items: center; */
 }
-.input1{
-    position: relative;
-    height: 4px;
-    left: 20%;
-    width: 45%;
-    padding: 30px;
-    
-}
-.input2{
-    display: flex;
-    position: relative;
-    height: 4px;
-    left: 44%;
-    width: 53%;
-    padding: 30px;
-    top: 57px;
-    border: 1px solid #DCBB9D;
-    color: black;
-    background: transparent;
-    
-}
-.rectangle2 button{
-    position: relative;
-    align-items: center;
-    top: 16%;
-    width: 80px;
-    height: 50px;
-    border-radius: 30px;
+h4{
     font-size: 20px;
-    background: #DCBB9D;
-    border: 1px solid #DCBB9D;
-    left: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #DCBB9D;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;  
 }
 
-p{
-    width: 300px;
-    position: relative;
-    bottom: 19.7em;
-    font-size: 30px;
-    left: 28.5%;
-    margin: 60px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+label{
+  font-size: 20px;
+  margin-left: 10%;
+ 
+
+ 
+} 
+.partie_nom{
+    margin-top: 30px;
+    color: #DCBB9D;
 }
-.rectangle2 h1{
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #696F69;
-    margin-left: 12px;
+input{
+    width: 380px;
+    height: 40px;
+    font-size: 16px;
+    margin-left: 10%;
+    border-radius: 10px ;
+    border: 1px solid rgb(175, 172, 172);
 }
-select input{
-    color: black;
+
+.div-button button{
+    height: 30px;
+    width: 140px;
+}
+
+.button5{
     position: relative;
-    margin-left: 10px;
-    
+    height: 40px;
+    width: 100px;
+    border: 3px solid white;
+    background: #f3ddc9;
+    border-radius: 12px;
+    margin-left: 30%;
+    top: 20px;
+
 }

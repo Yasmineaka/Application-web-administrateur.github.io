@@ -1,0 +1,100 @@
+
+.ligne{
+    position: relative;
+    border: 1px solid ;
+    box-shadow: 0px 1px 1px 1px;
+    width: 900px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 30%;
+    border-radius: 10px ;
+    height: 500px;
+    background: white;
+   
+   
+    
+    /* align-items: center; */
+}
+h4{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #DCBB9D;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #DCBB9D;
+
+    
+}
+label{
+  font-size: 20px;
+  margin-left: 30%;
+ 
+
+ 
+} 
+.partie_nom{
+    margin-top: 15px;
+  
+}
+input{
+    width: 400px;
+    height: 40px;
+    font-size: 16px;
+    margin-left: 30%;
+    display: block;
+}
+
+
+.button5{
+    position: relative;
+    height: 40px;
+    width: 70px;
+    border: 3px solid white;
+    background: #f3ddc9;
+    border-radius: 12px;
+    margin-left: 48%;
+    top: 20px;
+
+}
+
+/* .button6{
+    position: relative;
+    border: 3px solid white;
+    background: #f3ddc9;
+    border-radius: 12px;
+    align-items: center;
+    margin: 80px;
+} */
+
+
+table button{
+    background: rgb(237, 95, 82);
+    margin: 2px;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid;
+}
+
+
+
+td{
+    border: 1px solid white;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    background: #edcfb3;
+    
+    
+}
+th {
+    background: white;
+        border:1px solid ; 
+        
+} 
+
+table{
+    position: relative;
+    box-shadow: 0px 1px 1px 1px;
+    border: 1px solid rebeccapurple;
+    width: 70%;
+    font-size: 20px;
+    left: 18%;
+   }

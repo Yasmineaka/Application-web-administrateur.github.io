@@ -14,5 +14,5 @@ inscription.addEventListener('click', function() {
    localStorage.setItem("e_mail", e_mail.value)
    localStorage.setItem("mot_de_pass", mot_de_pass.value)
    localStorage.setItem("confirmation", confirmation.value)
-   window.location.replace("file:///Users/imac-09/Desktop/Site_d-application_web.github.io/html/connection.html")
+   window.location.replace("file:///Users/imac-09/Desktop/Application-web-administrateur.github.io/html/connection.html")
 })
