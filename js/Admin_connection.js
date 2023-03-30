@@ -20,8 +20,8 @@
 
 
 
-let admin = {nom:"aaa", email:"bbbb", pass:"ccccc"}
-localStorage.setItem('Super Administrateur', JSON.stringify(admin))
+let admin = {nom:"123", email:"a@gmail.com", pass:"1234"}
+localStorage.setItem('Administrateur', JSON.stringify(admin))
 let nom = document.querySelector("#nom")
 let email = document.querySelector("#email")
 let password = document.querySelector("#password")
