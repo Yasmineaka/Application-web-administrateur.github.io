@@ -33,6 +33,6 @@ connection.addEventListener('click', function() {
       let  Entrer_password = localStorage.getItem("password")
       
     if((nom.value === Entrer_nom.value) && (email === Entrer_E_mail) && (password === Entrer_password)){
-      window.location.href = './accueil.html'
+      window.location.href = '../html/accueil.html'
     }
 })
