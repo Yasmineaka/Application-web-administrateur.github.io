@@ -33,6 +33,6 @@ connecion.addEventListener('click', function() {
       let  Entrer_password = localStorage.getItem("password")
       
     if((nom.value === Entrer_nom.value) && (email === Entrer_E_mail) && (password === Entrer_password)){
-      window.location.href = 'file:///Users/imac-09/Desktop/Application-web-administrateur.github.io/html/accueil.html'
+      window.location.href = 'html/accueil.html'
     }
 })
